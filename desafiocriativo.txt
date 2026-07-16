@@ -1,0 +1,56 @@
+Desafio Criativo: Extraindo Insights do Feedback de Clientes Bancários
+Este projeto consiste na construção de um prompt estruturado para orientar uma Inteligência Artificial a analisar feedbacks de clientes de um banco, extraindo insights acionáveis de forma segura e organizada. O processo foi dividido em três etapas conforme solicitado.
+
+1. DEFINIÇÃO
+
+Quero que a IA analise comentários de clientes sobre o processo de abertura de contas digitais e solicitação de limites de crédito para identificar gargalos no onboarding e frustrações com a análise de crédito.
+
+O resultado será usado por uma equipe de Produto e Crédito para apoiar a revisão das políticas de aprovação de limite e a melhoria da experiência do usuário no aplicativo.
+
+A entrega deve conter um resumo executivo, uma tabela estruturada com os principais problemas e ações sugeridas, e uma lista de 3 prioridades de ação imediata.
+
+O resultado será considerado bom se for direto ao ponto, baseado estritamente nos dados fornecidos, e claro na conexão entre a reclamação do cliente e a solução técnica sugerida.
+
+2.  CONTEXTO E RESTRIÇÕES
+
+Contexto: Estou trabalhando com feedbacks de clientes bancários relacionados à abertura de contas (onboarding) e concessão de limites iniciais de cartão de crédito.
+
+Dados disponíveis: A base contém a data do comentário, o canal de origem (App, WhatsApp, E-mail), o texto do feedback, o produto citado e a nota de satisfação (NPS) de 0 a 10.
+
+Critérios de análise: A IA deve classificar os feedbacks por tema (ex: bug no app, documento rejeitado, limite insuficiente), sentimento (positivo, neutro, negativo) e urgência de resolução (alta, média, baixa).
+
+Cuidados e restrições:
+
+Use apenas os dados fornecidos.
+Não invente números, causas ou conclusões.
+Não exponha dados pessoais ou sensíveis (PII).
+Se houver informação insuficiente, indique a limitação.
+Use linguagem corporativa, simples, direta e voltada para tomada de decisão.
+3. PROMPT FINAL
+
+Atue como Analista de Dados e Especialista em Customer Experience (CX) no setor bancário.
+
+Sua tarefa é analisar feedbacks de clientes sobre o processo de abertura de contas e concessão de limites de crédito para identificar temas recorrentes, sentimentos dos clientes e oportunidades de melhoria.
+
+Contexto: A análise será usada por uma equipe de Produto e Crédito para priorizar melhorias no onboarding digital e revisar políticas de limite. O foco é transformar comentários soltos em insights claros que apoiem a tomada de decisão para reduzir o abandono de novas contas.
+
+Dados disponíveis: Serão fornecidos comentários contendo: data, canal de origem (App, WhatsApp, E-mail), texto do feedback, produto citado (Conta ou Cartão) e nota NPS (0 a 10).
+
+Instruções de análise:
+
+Classifique os feedbacks por tema, sentimento (positivo, neutro, negativo) e urgência (alta, média, baixa).
+Identifique os principais padrões, problemas recorrentes e elogios.
+Aponte evidências nos dados fornecidos, utilizando exemplos curtos e diretos dos comentários.
+Sugira ações práticas e viáveis para a equipe de Produto e Crédito.
+Formato da resposta:
+
+Resumo Executivo: Até 5 linhas destacando o cenário geral.
+Tabela de Análise: Colunas com [Tema | Sentimento | Urgência | Evidência (exemplo do cliente) | Ação Sugerida].
+Top 3 Prioridades: Uma lista com as 3 ações mais críticas que devem ser tomadas imediatamente.
+Restrições:
+
+Use apenas os dados fornecidos na base.
+Não invente números, causas ou conclusões que não estejam evidentes nos comentários.
+Não exponha dados pessoais ou sensíveis dos clientes.
+Informe limitações de análise caso os dados fornecidos sejam insuficientes ou genéricos demais.
+Use linguagem corporativa, simples, direta e voltada para tomada de decisão.
